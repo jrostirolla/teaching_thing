@@ -14,17 +14,19 @@ body {
 }
 /* ------------------------ */
 
+#app_container {
+    display: flex;
+}
 
-.side_panel {
+#side_panel {
         color: brown;
         background-color: purple;
-        position: absolute;
-        left: 0%;
         padding: 20px;
         border: solid black;
         flex-wrap: wrap;
         flex-direction: column;
-        height: 100%;
+        height: 100vh;
+        width: 300px;
         
 }
 
@@ -40,7 +42,7 @@ body {
     font-family: sans-serif;
 }
 
-.side_panel {
+#side_panel {
 
 }
 
@@ -50,5 +52,15 @@ body {
     margin-top: 10PX;
     border-radius: 16px;
     padding: 10px;
+}
+
+#activity_content {
+    flex: 1;
+}
+
+#activity_content iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
