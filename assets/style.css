@@ -14,12 +14,18 @@ body {
 }
 /* ------------------------ */
 
-* {
-    background-color: blueviolet;
-}
 
 .side_panel {
         color: brown;
+        background-color: purple;
+        position: absolute;
+        left: 0%;
+        padding: 20px;
+        border: solid black;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 100%;
+        
 }
 
 #title {
@@ -29,3 +35,20 @@ body {
 .card_title {
     color: tomato;
 }
+
+* {
+    font-family: sans-serif;
+}
+
+.side_panel {
+
+}
+
+.card {
+    background-color: blue;
+    border: solid black;
+    margin-top: 10PX;
+    border-radius: 16px;
+    padding: 10px;
+}
+
