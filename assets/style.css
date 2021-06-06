@@ -73,5 +73,27 @@ body {
     border: none;
 }
 
+#activity_content .written-response {
+    width: 500px;
+    margin: 80px auto;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#activity_content .written-response .detail-text {
+    font-size: 18px;
+
+}
+
+#activity_content .written-response textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    min-height: 150px;
+    resize: none;
+    padding: 5px;
+}
+
 
 
